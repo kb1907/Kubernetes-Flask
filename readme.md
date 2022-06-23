@@ -5,13 +5,13 @@ Kubernetes demo folder for MLOPS 2022 Data Scientist Trainees and DS Aspirants.
 ### New environment
 
 ```bash
-    conda create -n kubernetes-demo  python=3.9 -y
+    conda create -n kubernetes-flask  python=3.9 -y
 ```
 
 Activate the environment
 
 ```bash
-    conda activate kubernetes-demo
+    conda activate kubernetes-flask
 ```
 
 Requirements File
@@ -43,8 +43,8 @@ git add . && git commit -m "update Readme.md"
 pushing changes to new repo
 
 ```bash
+git remote add origin https://github.com/kb1907/Kubernetes-Flask.git
 git branch -M main
-git remote add origin git@github.com:kb1907/docker-demo.git
 git push -u origin main
 ```
 
