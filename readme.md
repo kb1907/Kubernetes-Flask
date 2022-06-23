@@ -2,7 +2,11 @@
 
 # Kubernetes-Flask-Github-Actions
 
-Kubernetes demo folder for MLOPS 2022 Data Scientist Trainees and DS Aspirants.
+Kubernetes-Docker-Flask-Github Actions folder for MLOPS 2022 Data Scientist Trainees and DS Aspirants.
+
+
+![kubernete](https://user-images.githubusercontent.com/51021282/175277513-baeb766d-944e-4aed-95d7-8306a7eb5cfd.png)
+
 
 ### New environment
 
@@ -112,11 +116,16 @@ Check again how many pods are running
 kubectl get pods
 ```
 
+![Screen Shot 2022-06-23 at 12 56 52 PM](https://user-images.githubusercontent.com/51021282/175276974-3cd9a9b8-3f36-4254-a4a8-8b64e084ddd7.png)
+
+
 Describe the load balanced service
 
 ```bash
 kubectl describe services kube-flask-service
 ```
+![Screen Shot 2022-06-23 at 12 57 39 PM](https://user-images.githubusercontent.com/51021282/175276935-a3220926-4351-4c24-b27a-3ced5a35cf9e.png)
+
 
 Then go to http://127.0.0.1:8080/ to see the page.
 
