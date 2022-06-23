@@ -1,3 +1,5 @@
+[![Kubernetes-Flask with Github Actions](https://github.com/kb1907/Kubernetes-Flask/actions/workflows/main.yml/badge.svg)](https://github.com/kb1907/Kubernetes-Flask/actions/workflows/main.yml)
+
 # Kubernetes Demo
 
 Kubernetes demo folder for MLOPS 2022 Data Scientist Trainees and DS Aspirants.
